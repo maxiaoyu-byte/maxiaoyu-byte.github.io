@@ -75,7 +75,7 @@ var _hmt = _hmt || [];
     <div class="avatar mb-4">
       <div class="w-24 rounded-full ring ring-primary ring-offset-base-100">
         <img
-  src="/images/%E6%B4%BE%E8%92%99.jpeg"
+  src="/images/%E7%88%B7.jpg"
   alt="Profile"
   class="transition-transform duration-500 hover:rotate-210 cursor-pointer rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 w-24"
 />
@@ -143,7 +143,7 @@ var _hmt = _hmt || [];
       </a>
     
     
-      <a href="https://github.com/maxiaoyu-byte" class="text-base-content hover:text-primary hover:scale-110 transition-all duration-200 flex-shrink-0" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <a href="https://github.com/YOUR_ID" class="text-base-content hover:text-primary hover:scale-110 transition-all duration-200 flex-shrink-0" target="_blank" rel="noopener noreferrer" title="GitHub">
         <i class="fa-brands fa-github text-2xl block"></i>
       </a>
     
@@ -455,7 +455,7 @@ var _hmt = _hmt || [];
     <div class="avatar mb-4">
       <div class="w-24 rounded-full ring ring-primary ring-offset-base-100">
         <img
-  src="/images/%E6%B4%BE%E8%92%99.jpeg"
+  src="/images/%E7%88%B7.jpg"
   alt="Profile"
   class="transition-transform duration-500 hover:rotate-210 cursor-pointer rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 w-24"
 />
@@ -523,7 +523,7 @@ var _hmt = _hmt || [];
       </a>
     
     
-      <a href="https://github.com/maxiaoyu-byte" class="text-base-content hover:text-primary hover:scale-110 transition-all duration-200 flex-shrink-0" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <a href="https://github.com/YOUR_ID" class="text-base-content hover:text-primary hover:scale-110 transition-all duration-200 flex-shrink-0" target="_blank" rel="noopener noreferrer" title="GitHub">
         <i class="fa-brands fa-github text-2xl block"></i>
       </a>
     
@@ -557,6 +557,10 @@ var _hmt = _hmt || [];
       <div class="form-control">
         <select class="select select-bordered" id="categoryFilter" name="categoryFilter">
           <option value="">All Categories</option>
+          
+            <option value="Notes">Notes</option>
+          
+            <option value="人工智能">人工智能</option>
           
         </select>
       </div>
@@ -594,23 +598,27 @@ var _hmt = _hmt || [];
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="notesContainer">
     
       <article class="card glass rounded-box shadow-lg bg-base-100 text-base-content hover:shadow-xl hover:scale-105 transition-all duration-300 note-item h-80 flex flex-col" 
-               data-category=""
+               data-category="Notes,人工智能"
                data-year="2025"
-               data-title="hello world"
+               data-title="神经网络基础"
                data-content=""
-               data-tags="">
+               data-tags="深度学习,机器学习">
         <div class="card-body p-6 flex flex-col h-full">
           <!-- Header -->
           <div class="mb-4">
             <h2 class="card-title text-lg font-bold leading-tight mb-2">
-              <a href="/2025/11/03/hello-world/" class="hover:text-primary no-underline transition-colors duration-200">
-                Hello World
+              <a href="/2025/11/05/hello-world/" class="hover:text-primary no-underline transition-colors duration-200">
+                神经网络基础
               </a>
             </h2>
             <div class="flex items-center justify-between">
               <time class="text-sm opacity-70">
-                Nov 03, 2025
+                Nov 05, 2025
               </time>
+              
+                <div class="badge badge-primary badge-sm">
+                  Notes
+                </div>
               
             </div>
           </div>
@@ -622,10 +630,23 @@ var _hmt = _hmt || [];
 
           <!-- Tags -->
           
+            <div class="flex flex-wrap gap-1 mb-4">
+              
+                <span class="badge badge-outline badge-xs">
+                  深度学习
+                </span>
+              
+                <span class="badge badge-outline badge-xs">
+                  机器学习
+                </span>
+              
+              
+            </div>
+          
 
           <!-- Read More -->
           <div class="card-actions justify-end mt-auto">
-            <a href="/2025/11/03/hello-world/" class="btn btn-primary btn-sm">
+            <a href="/2025/11/05/hello-world/" class="btn btn-primary btn-sm">
               Read More
               <i class="fa-solid fa-arrow-right"></i>
             </a>
